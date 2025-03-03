@@ -22,15 +22,13 @@ header {
   margin-bottom: 5px;
 }
 
-/* Memastikan h1 terlihat dengan jelas */
 h1 {
   font-size: 24px;
   font-weight: bold;
-  color: white; /* Pastikan warna kontras */
-  margin-top: 10px; /* Memberi jarak dari elemen sebelumnya */
+  color: white; 
+  margin-top: 10px; 
 }
 
-/* Untuk membuat huruf S pada "Strawberries" lebih besar dan tebal */
 .big-S {
   font-size: 150%;
   font-weight: bold;
