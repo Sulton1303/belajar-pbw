@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Multi Bilangan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Kalkulator</h2>
+
+      <!-- Form input angka dipisah -->
+      <div>
+        <label>Masukkan bilangan (pisahkan dengan koma):</label>
+        <input type="text" id="inputAngka" placeholder="Contoh: 10,20,30" />
+      </div>
+
+      <!-- Pilihan operator -->
+      <div>
+        <label>Pilih Operator:</label>
+        <select id="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+          <option value="%">%</option>
+        </select>
+      </div>
+
+      <button id="hitungBtn">Hitung</button>
+
+      <h3 id="hasil">Hasil: -</h3>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
