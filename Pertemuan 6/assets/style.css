@@ -1,0 +1,83 @@
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  background-color: #f5f5f5;
+}
+
+/* Judul Halaman */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Kotak Formulir dan Output */
+form,
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label Formulir */
+label {
+  font-weight: bold;
+}
+
+/* Input dan Select */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Tombol Submit */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Hover Tombol Submit */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Teks Paragraf */
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Tombol Link */
+a.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #2196f3;
+  color: white;
+  padding: 12px;
+  margin-top: 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hover Tombol Link */
+a.btn:hover {
+  background-color: #1976d2;
+}
