@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^car/?$ car.php [NC,L]
+RewriteRule ^car/([0-9]+)/?$ car.php?id=$1 [NC,L]
